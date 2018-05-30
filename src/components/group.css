@@ -1,0 +1,28 @@
+.table-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.table-item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  width: 7.5%;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  width: 40%;
+  /* width: 100px; */
+}
